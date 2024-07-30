@@ -3,9 +3,9 @@ import hero from "./assets/illustration-hero.svg";
 
 function Card() {
   return (
-    <div className="bg-white rounded-3xl w-96">
+    <div className="bg-white rounded-2xl w-[25rem]">
       <div>
-        <img src={hero} alt="hero" className="rounded-t-3xl" />
+        <img src={hero} alt="hero" className="rounded-t-2xl" />
       </div>
 
       <div className="flex flex-col justify-center items-center">
@@ -34,7 +34,7 @@ function Card() {
         </div>
 
         <div className="flex flex-col w-4/5">
-          <button className="bg-bright-blue text-white rounded-lg py-2 my-6 font-medium text-sm capitalize hover:bg-Dark-blue transition-all duration-300">
+          <button className="bg-bright-blue text-white rounded-lg py-3 my-6 font-medium text-sm capitalize hover:bg-Dark-blue transition-all duration-300">
             proceed to payment
           </button>
           <button className="mb-8 font-bold capitalize text-sm text-gray-400 transition-all duration-300 hover:text-Dark-blue">
