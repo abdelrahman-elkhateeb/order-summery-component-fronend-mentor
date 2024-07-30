@@ -3,9 +3,9 @@ import hero from "./assets/illustration-hero.svg";
 
 function Card() {
   return (
-    <div className="bg-white rounded-2xl w-96">
+    <div className="bg-white rounded-3xl w-96">
       <div>
-        <img src={hero} alt="hero" className="rounded-t-2xl" />
+        <img src={hero} alt="hero" className="rounded-t-3xl" />
       </div>
 
       <div className="flex flex-col justify-center items-center">
